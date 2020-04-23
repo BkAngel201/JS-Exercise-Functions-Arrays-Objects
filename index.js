@@ -77,7 +77,7 @@ function temperatureCtoF(tempC) {
 */
 function temperatureInF(tempValue, tempType) {
   if(tempType === 'C') {
-    return temperatureCtoF(tempValue) + "C";
+    return temperatureCtoF(tempValue) + "F";
   } else if(tempType === 'F') {
     return tempValue + tempType;
   }
